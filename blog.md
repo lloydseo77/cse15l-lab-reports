@@ -4,7 +4,7 @@ cd
 Command: [user@sahara ~]$ cd
 Output: [user@sahara ~]$
 ```
-Working directory: /home
+Working directory: /home <br />
 Explanation: Using cd without arguments allows the user to return to the root directory, which is /home in the example. Output is not an error.
 ```
 Command: [user@sahara ~]$ cd lecture1
