@@ -29,7 +29,7 @@ Command: [user@sahara ~]$ ls
 Output: lecture1
 ```
 Working directory: ```/home``` <br />
-Explanation: ```ls``` displays all directories and files in the current directory. Since we are currently in the root directory home, the only item listed is the directory ```lecture1```. Output is not an error.
+Explanation: ```ls``` displays all directories and files in the current directory. Since we are currently in the root directory ```/home```, the only item listed is the directory ```lecture1```. Output is not an error.
 ```
 Command: [user@sahara ~]$ ls lecture1
 Output: Hello.class  Hello.java  messages  README
