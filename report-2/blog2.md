@@ -75,4 +75,4 @@ Absolute path to public key: ![Image](image-4.png)
 Logging in ```ieng6``` without password: ![Image](image-5.png)
 
 **Part 3:**
-From week 2, I learned how to create a web server. This requires compiling a Server file using HttpServer and another file that will manipulate various requests into the web server. Then running the latter file with an available port. By importing java.net.URI, we can access the web server's URL and manipulate the program to respond to different paths added to the URL.
+From week 2, I learned how to create a web server. This requires compiling a Server file using HttpServer and another file that will manipulate various requests into the web server. Then running the latter file with an available port. By importing java.net.URI, we can access the web server's URL and manipulate the program to respond to different paths appended to the URL.
