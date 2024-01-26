@@ -70,5 +70,4 @@ Part 2:
 
 Absolute path to private key: ![Image](image-3.png)
 
-<br>
 Absolute path to public key: ![Image](image-4.png)
