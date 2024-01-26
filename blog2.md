@@ -68,6 +68,6 @@ Values changed: The String "yash: How+are+you" was added to the ArrayList ```pro
 
 Part 2:
 
-Absolute path to private key: /Users/lloydseo/.ssh -> id_rsa
+Absolute path to private key: /Users/lloydseo/.ssh/id_rsa
 <br>
-Absolute path to public key: /Users/lloydseo/.ssh -> id_rsa.pub
+Absolute path to public key: /Users/lloydseo/.ssh/id_rsa.pub
