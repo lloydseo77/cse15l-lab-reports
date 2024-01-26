@@ -7,7 +7,6 @@ import java.util.ArrayList;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    ArrayList<String> itemList = new ArrayList<>();
     ArrayList<String> prompts = new ArrayList<>();
 
     public String handleRequest(URI url) {
@@ -47,4 +46,14 @@ class ChatServer {
 ```
 Screenshots: 
 ![Image](image-1.png)
+Method called: handleRequest()
+Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/add-message?s=Hello&user=jpolitz
+Field values: prompts -> ["jpolitz: Hello"]
+Values changed: The String "jpolitz: Hello" was added to the ArrayList prompts
+
+
 ![Image](image-2.png)
+Method called: handleRequest()
+Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/add-message?s=How are you&user=yash
+Field values: prompts -> ["jpolitz: Hello", "yash: How+are+you"]
+Values changed: The String "yash: How+are+you" was added to the ArrayList prompts
