@@ -52,7 +52,7 @@ Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/a
 <br>
 Field values: ```prompts``` -> ["jpolitz: Hello"]
 <br>
-Values changed: The String "jpolitz: Hello" was added to the ArrayList prompts
+Values changed: The String "jpolitz: Hello" was added to the ArrayList ```prompts```
 
 
 ![Image](image-2.png)
