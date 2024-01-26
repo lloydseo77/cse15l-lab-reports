@@ -1,4 +1,4 @@
-Part 1:
+**Part 1:**
 
 ChatServer.java code:
 ```
@@ -66,7 +66,7 @@ Field values: ```prompts``` -> ["jpolitz: Hello", "yash: How+are+you"]
 <br>
 Values changed: The String "yash: How+are+you" was added to the ArrayList ```prompts```
 
-Part 2:
+**Part 2:**
 
 Absolute path to private key: ![Image](image-3.png)
 
