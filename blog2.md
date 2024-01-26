@@ -47,13 +47,19 @@ class ChatServer {
 Screenshots: 
 ![Image](image-1.png)
 Method called: handleRequest()
+<br>
 Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/add-message?s=Hello&user=jpolitz
+<br>
 Field values: prompts -> ["jpolitz: Hello"]
+<br>
 Values changed: The String "jpolitz: Hello" was added to the ArrayList prompts
 
 
 ![Image](image-2.png)
 Method called: handleRequest()
+<br>
 Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/add-message?s=How are you&user=yash
+<br>
 Field values: prompts -> ["jpolitz: Hello", "yash: How+are+you"]
+<br>
 Values changed: The String "yash: How+are+you" was added to the ArrayList prompts
