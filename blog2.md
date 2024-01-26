@@ -1,3 +1,5 @@
+Part 1:
+
 ChatServer.java code:
 ```
 import java.io.IOException;
@@ -63,3 +65,9 @@ Argument: https://0-0-0-0-4020-tm03cntkpl8hu7htspa6k3oaf4.us.edusercontent.com/a
 Field values: ```prompts``` -> ["jpolitz: Hello", "yash: How+are+you"]
 <br>
 Values changed: The String "yash: How+are+you" was added to the ArrayList ```prompts```
+
+Part 2:
+
+Absolute path to private key: /Users/lloydseo/.ssh -> id_rsa
+<br>
+Absolute path to public key: /Users/lloydseo/.ssh -> id_rsa.pub
