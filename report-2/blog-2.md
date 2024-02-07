@@ -70,7 +70,7 @@ Values changed: The String ```"yash: How+are+you"``` was added to the ArrayList 
 
 Absolute path to private key: ![Image](image-3.png)
 
-Absolute path to public key: 
+Absolute path to public key: ![Image](image-4.png)
 
 Logging in ```ieng6``` without password: ![Image](image-5.png)
 
