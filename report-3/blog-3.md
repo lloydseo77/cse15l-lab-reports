@@ -167,7 +167,6 @@ Function: Searches through the file ```./technical/biomed/gb-2003-4-5-r30.txt```
 Display Lines That Don't Contain String ```-v```:
 
 >Example 1
-
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -v "," technical/government/media/A_Perk_of_Age.txt 
 
