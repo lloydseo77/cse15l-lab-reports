@@ -51,6 +51,7 @@ This addresses the issue because the bug was that ```newArray``` was not storing
 Recursive Search ```-r```:
 
 >Example 1
+>
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -r "Kevin" technical
 technical/government/About_LSC/commission_report.txt:167 (comment of Kevin
