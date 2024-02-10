@@ -46,6 +46,7 @@ static int[] reversed(int[] arr) {
 This addresses the issue because the bug was that ```newArray``` was not storing the elements of ```arr``` in reversed order as intended. Instead, it was storing it into the parameter ```arr``` and returning ```arr```. The fix assigns the elements of ```arr``` to ```newArray``` in reverse order and returns ```newArray```.
 
 <br>
+
 **Part 2 ```grep```:**
 
 Recursive Search ```-r```:
