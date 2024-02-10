@@ -147,6 +147,7 @@ technical/government/About_LSC/commission_report.txt:John Erlenborn has been an 
 ```
 Function: Searches through ```./technical/government/About_LSC``` for the string ```"john"``` ignoring case-sensitivity in ```.txt``` files and prints out all lines that contain the string. This is useful for finding all occurrences of a specific string in a file without taking into account case-sensitivity.
 <br>
+
 Count # of Lines Matched ```-c```:
 
 >Example 1
@@ -163,6 +164,7 @@ lloydseo@Lloyds-MacBook-Air lab3-main % grep -c "phenotypic" technical/biomed/gb
 ```
 Function: Searches through the file ```./technical/biomed/gb-2003-4-5-r30.txt``` for the string ```"phenotypic"``` and returns the number of lines in the file that contains the string. This is useful when searching for the number of lines in a file that contains a specific string.
 <br>
+
 Display Lines That Don't Contain String ```-v```:
 
 >Example 1
