@@ -203,8 +203,8 @@ www.aarp.org/LSN to find a lawyer nearby.
 Function: Searches through the file ```./technical/government/media/A_Perk_of_Age.txt``` for the string ```","``` and returns all lines in the file that do not contain the string. This is useful when searching for all lines in a file that do not contain a specific string.
 
 >Example 2
->```
->lloydseo@Lloyds-MacBook-Air lab3-main % grep -v "," technical/plos/pmed.0020257.txt            
+```
+lloydseo@Lloyds-MacBook-Air lab3-main % grep -v "," technical/plos/pmed.0020257.txt            
 
   
     
@@ -245,7 +245,7 @@ Function: Searches through the file ```./technical/government/media/A_Perk_of_Ag
       
     
   
->```
+```
 Function: Searches through the file ```./technical/plos/pmed.0020257.txt``` for the string ```","``` and returns all lines in the file that do not contain the string. This is useful when searching for all lines in a file that do not contain a specific string.
 
 Citation (same for all command-line options): https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
