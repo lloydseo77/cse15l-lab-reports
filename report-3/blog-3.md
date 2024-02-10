@@ -1,6 +1,7 @@
 **Part 1 ```reversed(int[] arr)```:**
 
 >Failure-inducing Input:
+
 ```
 @Test
 public void testReversedFail() {
@@ -8,7 +9,9 @@ public void testReversedFail() {
     assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));
 }
 ```
+
 >Non failure-inducing Input:
+
 ```
 @Test 
 public void testReversedPass() {
@@ -18,9 +21,11 @@ public void testReversedPass() {
 ```
 
 >Symptoms:
+
 ![Image](symptoms.png)
 
 >Bug (Before):
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -32,6 +37,7 @@ static int[] reversed(int[] arr) {
 ```
 
 >Bug (After; fixed):
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -51,6 +57,7 @@ This addresses the issue because the bug was that ```newArray``` was not storing
 Recursive Search ```-r```:
 
 >Example 1
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -r "Kevin" technical
 technical/government/About_LSC/commission_report.txt:167 (comment of Kevin
@@ -82,6 +89,7 @@ technical/911report/chapter-13.3.txt:                no-fly list were in U.S. cu
 Function: Recursively searches through ```./technical``` and its subdirectories for the string ```"Kevin"``` in ```.txt``` files and prints out all lines that contain the string. This is useful for finding matched results in a directory and all of its subdirectories.
 
 >Example 2
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -r "Kevin" technical/government
 technical/government/About_LSC/commission_report.txt:167 (comment of Kevin
@@ -103,6 +111,7 @@ Function: Recursively searches through ```./technical/government``` and its subd
 Ignore Case-Sensitivity ```-i```:
 
 >Example 1
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -i "kevin" technical/government/About_LSC/*.txt
 technical/government/About_LSC/commission_report.txt:167 (comment of Kevin
@@ -117,6 +126,7 @@ technical/government/About_LSC/commission_report.txt:Rural Legal Aid, et. al); M
 Function: Searches through ```./technical/government/About_LSC``` for the string ```"kevin"``` ignoring case-sensitivity in ```.txt``` files and prints out all lines that contain the string. This is useful for finding all occurrences of a specific string in a file without taking into account case-sensitivity.
 
 >Example 2
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -i "john" technical/government/About_LSC/*.txt
 technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt:JOHN EIDLEMAN, Program Specialist for the Legal Services
@@ -150,6 +160,7 @@ Function: Searches through ```./technical/government/About_LSC``` for the string
 Count # of Lines Matched ```-c```:
 
 >Example 1
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -c "phenotypic" technical/biomed/gb-2003-4-5-r32.txt
 7
@@ -157,6 +168,7 @@ lloydseo@Lloyds-MacBook-Air lab3-main % grep -c "phenotypic" technical/biomed/gb
 Function: Searches through the file ```./technical/biomed/gb-2003-4-5-r32.txt``` for the string ```"phenotypic"``` and returns the number of lines in the file that contains the string. This is useful when searching for the number of lines in a file that contains a specific string.
 
 >Example 2
+
 ```
 lloydseo@Lloyds-MacBook-Air lab3-main % grep -c "phenotypic" technical/biomed/gb-2003-4-5-r30.txt
 0
