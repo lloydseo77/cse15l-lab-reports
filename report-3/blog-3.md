@@ -100,6 +100,7 @@ technical/government/Media/Terrorist_Attack.txt:was Kevin J. Curnin, a senior as
 ```
 Function: Recursively searches through ```./technical/government``` and its subdirectories for the string ```"Kevin"``` in ```.txt``` files and prints out all lines that contain the string. This is useful for finding matched results in a directory and all of its subdirectories.
 <br>
+
 Ignore Case-Sensitivity ```-i```:
 
 >Example 1
