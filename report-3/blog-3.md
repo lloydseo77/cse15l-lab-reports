@@ -19,6 +19,7 @@ public void testReversedPass() {
 ```
 
 >Symptoms:
+
 ![Image](symptoms.png)
 
 >Bug (Before):
