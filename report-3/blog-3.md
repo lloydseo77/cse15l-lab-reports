@@ -12,9 +12,8 @@ public void testReversedFail() {
 ```
 @Test 
 public void testReversedPass() {
-    int[] input = {  };
-    ArrayExamples.reversed(input);
-    assertArrayEquals(new int[]{  }, input);
+    int[] input = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input));
 }
 ```
 
