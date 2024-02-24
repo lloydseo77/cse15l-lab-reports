@@ -14,7 +14,7 @@ Keys pressed: ```git clone git@github.com:lloydseo77/lab7.git <enter>```
 
 ![Image](step6.png)
 Keys pressed: ```cd lab7 <enter>``` -> ```javac ListExamples.java <enter>``` -> ```bash test.sh <enter>``` 
-I had to change directory to lab7 after cloning the repository so I did ```cd lab7```. Then I compiled the ```ListExamples.java``` file to run tests. Then I did ```bash test.sh``` 
+I had to change directory to lab7 after cloning the repository so I did ```cd lab7```. Then I compiled the ```ListExamples.java``` file to run tests. Then I did ```bash test.sh```
 
 > Step 7
 
