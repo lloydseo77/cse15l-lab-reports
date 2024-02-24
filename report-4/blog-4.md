@@ -31,5 +31,5 @@ Keys pressed: ```bash test.sh <enter>```
 > Step 9
 
 ![Image](step9.png)
-Keys pressed: ```git add. <enter>``` -> ```git commit -m "updated ListExamples.java" <enter>``` -> ```git push <enter>```
+Keys pressed: ```git add . <enter>``` -> ```git commit -m "updated ListExamples.java" <enter>``` -> ```git push <enter>```
 I ran the first command to stage changes in the working directory, the second to commit staged changes with a commit message, and the last command to push commited changes from the local repository to a remote repository.
