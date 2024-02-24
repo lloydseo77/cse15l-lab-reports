@@ -20,7 +20,7 @@ I had to change directory to lab7 after cloning the repository so I did ```cd la
 
 ![Image](step7.png)
 Keys pressed: ```vim ListExamples.java <enter>``` -> ```43j e r2 :wq <enter>```
-I did ```vim ListExamples.java``` to start editing the java file. Then I did ```43j``` to go down to line 43, ```e``` to get to the end of the first word, ```r2``` to change the character the cursor is on the 2, then ```:wq``` to save the file. 
+I did ```vim ListExamples.java``` to start editing the java file. Then I did ```43j``` to go down to line 43, ```e``` to get to the end of the first word, ```r2``` to change the character the cursor is on the 2, then ```:wq``` to save the file and exit vim. 
 
 > Step 8
 
