@@ -9,7 +9,7 @@ TA: One or more while loop blocks are causing an infinite loop. Can you trace th
 Student: I traced through my code and realized that I was incrementing ```index1``` in the last loop, which was iterating through ```list2```.
 
 **Setup**
-<b/>
+<br>
 A folder with ```ListExamples.java```, ```ListExamplesTests.java```, and ```test.sh```
 
 ```ListExamples.java``` Code:
