@@ -1,10 +1,10 @@
-![Image](image1.png)
+![Image](image-1.png)
 
 Student: This is a screenshot of the code. Running the tests on the code, I'm getting a "test timed out" error so I'm guessing there is an infinite loop somewhere in my program.
 
 TA: One or more while loop blocks are causing an infinite loop. Can you trace through your loops to figure out which one is causing it?
 
-![Image](image1.png)
+![Image](image-2.png)
 
 Student: I traced through my code and realized that I was incrementing ```index1``` in the last loop, which was iterating through ```list2```.
 
